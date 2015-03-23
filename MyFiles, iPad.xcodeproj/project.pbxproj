@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB125E5B1ABFBA2D002E24AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB125E5A1ABFBA2D002E24AF /* AppDelegate.swift */; };
+		BB125E5D1ABFBA2D002E24AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB125E5C1ABFBA2D002E24AF /* ViewController.swift */; };
+		BB125E601ABFBA2D002E24AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB125E5E1ABFBA2D002E24AF /* Main.storyboard */; };
+		BB125E621ABFBA2D002E24AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB125E611ABFBA2D002E24AF /* Images.xcassets */; };
+		BB125E651ABFBA2D002E24AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB125E631ABFBA2D002E24AF /* LaunchScreen.xib */; };
+		BB125E711ABFBA2D002E24AF /* MyFiles__iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB125E701ABFBA2D002E24AF /* MyFiles__iPadTests.swift */; };
+		BB125E7C1ABFBAFE002E24AF /* Monster Hunter 3U.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB125E7B1ABFBAFE002E24AF /* Monster Hunter 3U.pdf */; };
+		BB125E7E1ABFBB07002E24AF /* Getting Started iOS Development Course PDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB125E7D1ABFBB07002E24AF /* Getting Started iOS Development Course PDF.pdf */; };
+		BB125E801ABFBB0E002E24AF /* Beginning_PHP5__Apache__And_MySQL_Web_De.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB125E7F1ABFBB0E002E24AF /* Beginning_PHP5__Apache__And_MySQL_Web_De.pdf */; };
+		BB125E831ABFC340002E24AF /* LocalPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB125E821ABFC340002E24AF /* LocalPDFViewController.swift */; };
+		BB408DD01AC09CCD00834A57 /* LocalPDF2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB408DCF1AC09CCD00834A57 /* LocalPDF2Controller.swift */; };
+		BB408DD21AC0A58200834A57 /* LocalPDF3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB408DD11AC0A58200834A57 /* LocalPDF3ViewController.swift */; };
+		BB408DD41AC0C0F100834A57 /* ExternalPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB408DD31AC0C0F100834A57 /* ExternalPDFViewController.swift */; };
+		BB408DD61AC0C51300834A57 /* ExternalPDF2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB408DD51AC0C51300834A57 /* ExternalPDF2ViewController.swift */; };
+		BB408DD81AC0C53100834A57 /* ExternalPDF3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB408DD71AC0C53000834A57 /* ExternalPDF3ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB125E6B1ABFBA2D002E24AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB125E4D1ABFBA2D002E24AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB125E541ABFBA2D002E24AF;
+			remoteInfo = "MyFiles, iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB125E551ABFBA2D002E24AF /* MyFiles, iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyFiles, iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB125E591ABFBA2D002E24AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB125E5A1ABFBA2D002E24AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB125E5C1ABFBA2D002E24AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB125E5F1ABFBA2D002E24AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB125E611ABFBA2D002E24AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB125E641ABFBA2D002E24AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB125E6A1ABFBA2D002E24AF /* MyFiles, iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyFiles, iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB125E6F1ABFBA2D002E24AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB125E701ABFBA2D002E24AF /* MyFiles__iPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFiles__iPadTests.swift; sourceTree = "<group>"; };
+		BB125E7B1ABFBAFE002E24AF /* Monster Hunter 3U.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Monster Hunter 3U.pdf"; sourceTree = "<group>"; };
+		BB125E7D1ABFBB07002E24AF /* Getting Started iOS Development Course PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Getting Started iOS Development Course PDF.pdf"; sourceTree = "<group>"; };
+		BB125E7F1ABFBB0E002E24AF /* Beginning_PHP5__Apache__And_MySQL_Web_De.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Beginning_PHP5__Apache__And_MySQL_Web_De.pdf; sourceTree = "<group>"; };
+		BB125E821ABFC340002E24AF /* LocalPDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPDFViewController.swift; sourceTree = "<group>"; };
+		BB408DCF1AC09CCD00834A57 /* LocalPDF2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPDF2Controller.swift; sourceTree = "<group>"; };
+		BB408DD11AC0A58200834A57 /* LocalPDF3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPDF3ViewController.swift; sourceTree = "<group>"; };
+		BB408DD31AC0C0F100834A57 /* ExternalPDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalPDFViewController.swift; sourceTree = "<group>"; };
+		BB408DD51AC0C51300834A57 /* ExternalPDF2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalPDF2ViewController.swift; sourceTree = "<group>"; };
+		BB408DD71AC0C53000834A57 /* ExternalPDF3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalPDF3ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB125E521ABFBA2D002E24AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB125E671ABFBA2D002E24AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB125E4C1ABFBA2D002E24AF = {
+			isa = PBXGroup;
+			children = (
+				BB125E811ABFBBD0002E24AF /* Views */,
+				BB125E7A1ABFBAA2002E24AF /* PDF */,
+				BB125E571ABFBA2D002E24AF /* MyFiles, iPad */,
+				BB125E6D1ABFBA2D002E24AF /* MyFiles, iPadTests */,
+				BB125E561ABFBA2D002E24AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB125E561ABFBA2D002E24AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB125E551ABFBA2D002E24AF /* MyFiles, iPad.app */,
+				BB125E6A1ABFBA2D002E24AF /* MyFiles, iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB125E571ABFBA2D002E24AF /* MyFiles, iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BB125E5A1ABFBA2D002E24AF /* AppDelegate.swift */,
+				BB125E5C1ABFBA2D002E24AF /* ViewController.swift */,
+				BB125E5E1ABFBA2D002E24AF /* Main.storyboard */,
+				BB125E611ABFBA2D002E24AF /* Images.xcassets */,
+				BB125E631ABFBA2D002E24AF /* LaunchScreen.xib */,
+				BB125E581ABFBA2D002E24AF /* Supporting Files */,
+			);
+			path = "MyFiles, iPad";
+			sourceTree = "<group>";
+		};
+		BB125E581ABFBA2D002E24AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB125E591ABFBA2D002E24AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB125E6D1ABFBA2D002E24AF /* MyFiles, iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB125E701ABFBA2D002E24AF /* MyFiles__iPadTests.swift */,
+				BB125E6E1ABFBA2D002E24AF /* Supporting Files */,
+			);
+			path = "MyFiles, iPadTests";
+			sourceTree = "<group>";
+		};
+		BB125E6E1ABFBA2D002E24AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB125E6F1ABFBA2D002E24AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB125E7A1ABFBAA2002E24AF /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				BB125E7F1ABFBB0E002E24AF /* Beginning_PHP5__Apache__And_MySQL_Web_De.pdf */,
+				BB125E7D1ABFBB07002E24AF /* Getting Started iOS Development Course PDF.pdf */,
+				BB125E7B1ABFBAFE002E24AF /* Monster Hunter 3U.pdf */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		BB125E811ABFBBD0002E24AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB125E821ABFC340002E24AF /* LocalPDFViewController.swift */,
+				BB408DCF1AC09CCD00834A57 /* LocalPDF2Controller.swift */,
+				BB408DD11AC0A58200834A57 /* LocalPDF3ViewController.swift */,
+				BB408DD31AC0C0F100834A57 /* ExternalPDFViewController.swift */,
+				BB408DD51AC0C51300834A57 /* ExternalPDF2ViewController.swift */,
+				BB408DD71AC0C53000834A57 /* ExternalPDF3ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB125E541ABFBA2D002E24AF /* MyFiles, iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB125E741ABFBA2D002E24AF /* Build configuration list for PBXNativeTarget "MyFiles, iPad" */;
+			buildPhases = (
+				BB125E511ABFBA2D002E24AF /* Sources */,
+				BB125E521ABFBA2D002E24AF /* Frameworks */,
+				BB125E531ABFBA2D002E24AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyFiles, iPad";
+			productName = "MyFiles, iPad";
+			productReference = BB125E551ABFBA2D002E24AF /* MyFiles, iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB125E691ABFBA2D002E24AF /* MyFiles, iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB125E771ABFBA2D002E24AF /* Build configuration list for PBXNativeTarget "MyFiles, iPadTests" */;
+			buildPhases = (
+				BB125E661ABFBA2D002E24AF /* Sources */,
+				BB125E671ABFBA2D002E24AF /* Frameworks */,
+				BB125E681ABFBA2D002E24AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB125E6C1ABFBA2D002E24AF /* PBXTargetDependency */,
+			);
+			name = "MyFiles, iPadTests";
+			productName = "MyFiles, iPadTests";
+			productReference = BB125E6A1ABFBA2D002E24AF /* MyFiles, iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB125E4D1ABFBA2D002E24AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					BB125E541ABFBA2D002E24AF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BB125E691ABFBA2D002E24AF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BB125E541ABFBA2D002E24AF;
+					};
+				};
+			};
+			buildConfigurationList = BB125E501ABFBA2D002E24AF /* Build configuration list for PBXProject "MyFiles, iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB125E4C1ABFBA2D002E24AF;
+			productRefGroup = BB125E561ABFBA2D002E24AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB125E541ABFBA2D002E24AF /* MyFiles, iPad */,
+				BB125E691ABFBA2D002E24AF /* MyFiles, iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB125E531ABFBA2D002E24AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB125E801ABFBB0E002E24AF /* Beginning_PHP5__Apache__And_MySQL_Web_De.pdf in Resources */,
+				BB125E601ABFBA2D002E24AF /* Main.storyboard in Resources */,
+				BB125E7E1ABFBB07002E24AF /* Getting Started iOS Development Course PDF.pdf in Resources */,
+				BB125E651ABFBA2D002E24AF /* LaunchScreen.xib in Resources */,
+				BB125E621ABFBA2D002E24AF /* Images.xcassets in Resources */,
+				BB125E7C1ABFBAFE002E24AF /* Monster Hunter 3U.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB125E681ABFBA2D002E24AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB125E511ABFBA2D002E24AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB408DD21AC0A58200834A57 /* LocalPDF3ViewController.swift in Sources */,
+				BB408DD61AC0C51300834A57 /* ExternalPDF2ViewController.swift in Sources */,
+				BB125E5D1ABFBA2D002E24AF /* ViewController.swift in Sources */,
+				BB125E5B1ABFBA2D002E24AF /* AppDelegate.swift in Sources */,
+				BB408DD81AC0C53100834A57 /* ExternalPDF3ViewController.swift in Sources */,
+				BB125E831ABFC340002E24AF /* LocalPDFViewController.swift in Sources */,
+				BB408DD41AC0C0F100834A57 /* ExternalPDFViewController.swift in Sources */,
+				BB408DD01AC09CCD00834A57 /* LocalPDF2Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB125E661ABFBA2D002E24AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB125E711ABFBA2D002E24AF /* MyFiles__iPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB125E6C1ABFBA2D002E24AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB125E541ABFBA2D002E24AF /* MyFiles, iPad */;
+			targetProxy = BB125E6B1ABFBA2D002E24AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB125E5E1ABFBA2D002E24AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB125E5F1ABFBA2D002E24AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB125E631ABFBA2D002E24AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB125E641ABFBA2D002E24AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB125E721ABFBA2D002E24AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BB125E731ABFBA2D002E24AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB125E751ABFBA2D002E24AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MyFiles, iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB125E761ABFBA2D002E24AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MyFiles, iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB125E781ABFBA2D002E24AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyFiles, iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFiles, iPad.app/MyFiles, iPad";
+			};
+			name = Debug;
+		};
+		BB125E791ABFBA2D002E24AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyFiles, iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFiles, iPad.app/MyFiles, iPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB125E501ABFBA2D002E24AF /* Build configuration list for PBXProject "MyFiles, iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB125E721ABFBA2D002E24AF /* Debug */,
+				BB125E731ABFBA2D002E24AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB125E741ABFBA2D002E24AF /* Build configuration list for PBXNativeTarget "MyFiles, iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB125E751ABFBA2D002E24AF /* Debug */,
+				BB125E761ABFBA2D002E24AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB125E771ABFBA2D002E24AF /* Build configuration list for PBXNativeTarget "MyFiles, iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB125E781ABFBA2D002E24AF /* Debug */,
+				BB125E791ABFBA2D002E24AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB125E4D1ABFBA2D002E24AF /* Project object */;
+}
